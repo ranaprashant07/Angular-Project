@@ -1,0 +1,13 @@
+
+<div>
+    <input type="button" value="Load Product Data" 
+    (click)="loadProductInfo()">
+    <br>
+    <div *ngFor="let product of products">
+        <div>
+            id is{{product.id}}
+            price is {{product.price}}
+        </div>
+
+    </div>
+</div>
